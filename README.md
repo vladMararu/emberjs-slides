@@ -4,16 +4,15 @@ This README outlines the details of collaborating on this Ember application.
 
 ## Components
 
-- panel
+- panel-component
     - slides-list-component
-
-- panel
+- panel-component
     - tabbed-panel
-        - blueprint-panel-component
-            - blueprint-list-component
+        - layouts-panel-component
+            - layouts-panel-list
     - tabbed-panel
         - slide-property-component
-- panel
+- panel-component
     - slide-canvas
         - editable-text-shape
         - image-shape
@@ -26,7 +25,7 @@ This README outlines the details of collaborating on this Ember application.
     - text-properties-toolbar
         - toolbar-button
     - color-picker-component
-
+        - toolbar-button
 
 ## Tests
 
