@@ -13,7 +13,6 @@ This README outlines the details of collaborating on this Ember application.
             - blueprint-list-component
     - tabbed-panel
         - slide-property-component
-
 - panel
     - slide-canvas
         - editable-text-shape
