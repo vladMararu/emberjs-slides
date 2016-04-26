@@ -1,6 +1,6 @@
 <div id="slide-list">
-  {{#each slide as |item|}}
-    {{slide-component slide = item handleSelectSlide = 'onClick'}}
+  {{#each slide as |slideItem|}}
+    {{slide-component slide = slideItem handleSelectSlide = 'onClickSlideList'}}
   {{/each}}
 </div>
 

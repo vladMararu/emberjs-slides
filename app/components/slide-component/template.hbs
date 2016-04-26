@@ -1,6 +1,6 @@
-<button type="button" class="single-slide" {{action 'selectSlide'}}>
+<button class="button-remove" {{action 'removeSlide'}}>X</button>
+<button class="single-slide" {{action 'selectSlide' slide.id}}>
   <span>{{slide.id}}</span>
-  <button type='button' {{action 'removeSlide'}}>X</button>
   <img class="image-slide" src="./assets/slide/slide.png" alt="fail-to-load-image"/>
 </button>
 

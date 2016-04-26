@@ -2,8 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    onClick() {
-      this.sendAction('handleRemove');
+    onClickSlideList(id) {
+      this.sendAction('handleSelectPanel', id);
     },
   },
 });
