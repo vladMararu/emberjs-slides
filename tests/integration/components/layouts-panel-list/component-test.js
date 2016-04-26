@@ -22,12 +22,3 @@ test('it renders', function(assert) {
 
   assert.equal(this.$().text().trim(), 'template block text');
 });
-
-// test('it render all layouts number', function(assert) {
-//
-//   this.render(hbs`{{layouts-panel-list}}`);
-//   // Ember.Logger.info("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW", this.$().text().trim());
-//   // this.$().set('classNames',['layouts-panel']);
-//
-//   assert.hasClasses(this.$(), 'layouts-panel');
-// });
