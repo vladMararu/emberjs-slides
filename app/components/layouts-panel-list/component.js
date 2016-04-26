@@ -280,6 +280,7 @@ export default Ember.Component.extend({
   },
   actions: {
     layoutClick(layoutShapes) {
+      console.log('send layout shape :', layoutShapes);
       this.sendAction('layoutClick', layoutShapes);
     },
   },
