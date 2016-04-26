@@ -38,6 +38,7 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
+    "ember-spectrum-color-picker": "0.4.2",
     "eslint": "^2.8.0",
     "eslint-config-airbnb": "^6.2.0",
     "eslint-config-standard": "^5.1.0",
