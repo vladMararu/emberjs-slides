@@ -2,15 +2,14 @@ import { moduleForComponent, test } from 'ember-qunit';
 
 moduleForComponent('slide-panel-properties', 'Unit | Component | slide panel properties', {
   // Specify the other units that are required for this test
-  // needs: ['component:foo', 'helper:bar'],
-  unit: true
+  unit: true,
+   needs: ['component:spectrum-color-panel-properties','template:components/spectrum-color-panel-properties'],
 });
 
 test('it renders', function(assert) {
-  
   // Creates the component instance
-  /*let component =*/ this.subject();
+
   // Renders the component to the page
   this.render();
-  assert.equal(this.$().text().trim(), '');
+  assert.equal(this.$('p').text().trim(), 'Background');
 });

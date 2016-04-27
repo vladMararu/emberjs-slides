@@ -8,7 +8,6 @@ export default Ember.Component.extend({
   },
   actions: {
     colorChanged(color) {
-    console.log("color choosed :", color);
     this.sendAction('colorChanged',color);
     },
   },

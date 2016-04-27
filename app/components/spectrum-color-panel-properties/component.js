@@ -4,6 +4,7 @@ export default SpectrumColorPickerComponent.extend({
   showPaletteOnly: true,
   showPalette: true,
   clickoutFiresChange: true,
+  showButtons: true,
   preferredFormat: 'hex',
   palette: [
        ["rgb(0, 0, 0)", "rgb(67, 67, 67)", "rgb(102, 102, 102)",
